@@ -21,7 +21,7 @@ $(document).ready(function(){
   }
 
   // 페이지 상단으로 이동
-  $(".go-top, #home").click(function(){
+  $(".go-top, .intro").click(function(){
     $("html, body").stop().animate({scrollTop:0},1000,"swing")
   });
 
