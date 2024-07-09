@@ -21,7 +21,7 @@ $(document).ready(function(){
   }
 
   // 페이지 상단으로 이동
-  $("header h1 a").click(function(){
+  $(".go-top, #home").click(function(){
     $("html, body").stop().animate({scrollTop:0},1000,"swing")
   });
 
@@ -109,5 +109,38 @@ $(document).ready(function(){
       }
       
       document.querySelectorAll('.flex').forEach(el => createLoopingText(el));
+
+      //눈알
+     /*  const leftEyes = document.querySelectorAll('.eye_left .eye_ball');
+      const rightEyes = document.querySelectorAll('.eye_right .eye_ball');
+
+      const moveEye = (eye, event) => {
+        const rect = eye.getBoundingClientRect();
+        const x = event.pageX - rect.left;
+        const y = event.pageY - rect.top;
+
+        const angle = Math.atan2(y, x);
+        const diff = Math.sqrt(x * x, y * y);
+        const degrees = angle * 180 / Math.PI;
+        const radius = Math.min(8, diff);
+
+        const cappedX = radius * Math.cos(angle);
+        const cappedY = radius * Math.sin(angle);
+
+        gsap.to(eye, {
+          x: cappedX,
+          y: cappedY });
+
+      };
+
+      document.addEventListener('mousemove', e => {
+        leftEyes.forEach(eye => {
+          moveEye(eye, e);
+        });
+
+        rightEyes.forEach(eye => {
+          moveEye(eye, e);
+        });
+      }); */
 
 });
