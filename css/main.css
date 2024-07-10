@@ -318,6 +318,21 @@ background-image: url(../img/konec-m.jpg);
 
 
 
+/*zep*/
+#zep{
+  background: url(../img/metabus-bg.png) no-repeat center / 90%;
+  display: flex;
+  gap: 80px;
+}
+
+#zep .imac span{
+background-image: url(../img/zep-t.png);
+}
+
+#zep .iphone span{
+background-image: url(../img/konec-m.jpg);
+}
+
 
 /*about 페이지*/
 #about{margin-top: 80px;}
