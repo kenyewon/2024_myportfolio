@@ -230,9 +230,9 @@ table .colors span.ik:nth-child(2){
 }
 .imac span{
   width: 95%;
-  height: 75%;
+  height: 63%;
   position: absolute;
-  top: 3%;
+  top: 4%;
   left: 50%;
   transform: translateX(-50%);
 }
