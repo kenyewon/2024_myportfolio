@@ -49,7 +49,7 @@ section{
   height: 100vh;
 }
 
-.horizontal{display: flex; flex-wrap: nowrap; width: 200%;}
+.horizontal{display: flex; flex-wrap: nowrap; width: 400%;}
 
 /* #home{position: relative;} */
 
@@ -124,8 +124,8 @@ section{
 #portfolio .inner{
   padding: 200px 80px;
 }
-#podo{
-  background: url(../img/일광.png) no-repeat center / 90%;
+#ik{
+  background: url(../img/ik-bg.png) no-repeat center / 90%;
   display: flex;
   gap: 80px;
 }
@@ -212,6 +212,7 @@ table .colors span.ik:nth-child(2){
 .imac{
   position: relative;
 }
+
 @keyframes slide {
   0% {
     background-position: center 0;
@@ -220,6 +221,7 @@ table .colors span.ik:nth-child(2){
     background-position: center 100%;
   }
 }
+
 .device span{
   background-repeat: no-repeat;
   background-position: center 0;
@@ -230,9 +232,9 @@ table .colors span.ik:nth-child(2){
 }
 .imac span{
   width: 95%;
-  height: 63%;
+  height: 64%;
   position: absolute;
-  top: 4%;
+  top: 3%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -246,17 +248,17 @@ table .colors span.ik:nth-child(2){
   border-radius: 20px;
 }
 
-/*포도*/
-#podo .imac span{
-  background-image: url(../img/일광전구\ 데스크탑.png);
+/*일광전구*/
+#ik .imac span{
+  background-image: url(../img/ik-pc.png);
 }
-#podo .iphone span{
-  background-image: url(../img/일광전구\ 모바일.png);
+#ik .iphone span{
+  background-image: url(../img/ik-m.png);
 }
 
 /*리움*/
 #leeum{
-    background: url(../img/리움.png) no-repeat center / 90%;
+    background: url(../img/leeum-bg.png) no-repeat center / 90%;
     display: flex;
     gap: 80px;
   }
@@ -275,14 +277,44 @@ table .colors span.leeum:nth-child(2){
 }
 
 #leeum .imac span{
-  background-image: url(../img/리움\ 데스크탑.png);
+  background-image: url(../img/leeum-pc.png);
 }
 
 #leeum .iphone span{
-  background-image: url(../img/리움\ 모바일.png);
+  background-image: url(../img/leeum-m.png);
 }
 
 
+
+/*코넥*/
+#konec{
+  background: url(../img/konec-bg.png) no-repeat center / 90%;
+  display: flex;
+  gap: 80px;
+}
+
+table .colors span.konec:nth-child(1){
+width: 100px;
+height: 20px;
+background-color: #FD8234;
+display: block;
+margin-right: 20px;
+}
+
+table .colors span.konec:nth-child(2){
+width: 100px;
+height: 20px;
+background-color: #0366A8;
+display: block;
+}
+
+#konec .imac span{
+background-image: url(../img/konec-pc.jpg);
+}
+
+#konec .iphone span{
+background-image: url(../img/konec-m.jpg);
+}
 
 
 
